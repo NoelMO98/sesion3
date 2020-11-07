@@ -1,5 +1,5 @@
 body{
-    background-color: darkgray;
+    background-color: white;
 }
 .container-header{
     width: 100%;
@@ -10,4 +10,64 @@ body{
 .p-section{
     height: 300px;
     background-color: cadetblue;
+}
+
+.publish h3 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish>p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.publish>form {
+    display: flex;
+}
+
+.publish>form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.publish>form input {
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.publish>form button {
+    color: white;
+    height: 35px;
+    background-color: #025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+form{
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+.promo{
+    display: flex;
 }
