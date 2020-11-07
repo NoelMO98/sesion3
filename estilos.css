@@ -1,5 +1,5 @@
-body {
-    background-color: darkgray;
+body{
+    background-color: white;
 }
 
 .container-header {
@@ -8,11 +8,13 @@ body {
     background-color: aqua;
 }
 
-.publish{
-    background-color: antiquewhite;
+.p-section{
+    height: 300px;
+    background-color: cadetblue;
 }
 
 .publish h3 {
+    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     line-height: 48px;
@@ -23,7 +25,7 @@ body {
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .publish>form {
@@ -53,4 +55,23 @@ body {
 
 form{
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+.promo{
+    display: flex;
+>>>>>>> 8eaf4dcee15b5f47e39b4f935c3e318338f64536
 }
